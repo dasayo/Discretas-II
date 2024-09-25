@@ -63,6 +63,9 @@ def main():
     print("Insertando placas...")
     gestor.insertar_placa("PLA008", "Toyota")
     gestor.insertar_placa("PLA001", "Ford")
+    
+    "valores en la tabla hash"
+    print(gestor)
 
     print("Buscando placas...")
     print(gestor.buscar_placa("PLA008"))
